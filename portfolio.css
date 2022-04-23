@@ -1,0 +1,139 @@
+header {
+  height: 220px;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  font-family: "Bangers", cursive;
+  border: double 15px #4682b4;
+}
+header:hover {
+  padding-top: 20px;
+  border: double 50px #e06ac3;
+  transition: all 0.7s ease-in;
+}
+header h1 {
+  display: block;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: all 0.4s ease-out;
+}
+a:hover {
+  color: red;
+  font-size: 30px;
+}
+
+.content {
+  margin: 150px 50px 200px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  background-color: white;
+  border-radius: 1em;
+}
+
+.Hobby {
+  background-color: aqua;
+  padding: 80px 80px;
+}
+.top {
+  margin-right: 90px;
+  border-radius: 4em;
+  position: relative;
+  display: inline-block;
+
+  width: 70%;
+  max-width: 300px;
+  height: 220px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.profile {
+  background-color: #b3ffb3;
+  padding: 80px 80px;
+}
+
+.quiz_sam {
+  padding: 80px 80px 80px 80px;
+  background-color: #ffb3ff;
+}
+
+#profile {
+  border-bottom: solid #b3ffb3;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.my_profile {
+  transition: all 0.5s ease-out;
+}
+
+.profile_detail {
+  align-items: center;
+  font-size: 20px;
+  margin: 60px 10px;
+  font-family: "Amatic SC", cursive;
+}
+
+#name_js {
+  padding: 40px 40px 40px 40px;
+}
+
+#age_js {
+  padding: 40px 40px 40px 40px;
+}
+
+#from_js {
+  padding: 40px 40px 40px 40px;
+  margin-bottom: 50px;
+}
+
+#hhobby {
+  border-bottom: solid aqua;
+  padding: 20px 20px;
+  font-size: 40px;
+  margin: 120px 0px 100px 0px;
+}
+
+#quiz {
+  border-bottom: solid #ffb3ff;
+  padding: 150px opx 15px 0px;
+  font-size: 40px;
+  margin: 120px 0;
+}
+
+.hobby {
+  margin: 60px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.hobby a {
+  font-size: 20px;
+  transition: all 0.1s ease-in;
+}
+
+.hobby a:hover {
+  color: red;
+  font-size: 20px;
+}
+
+#img_quiz {
+  padding: 50px;
+}
+
+#img {
+  transition: all 1s ease-in;
+}

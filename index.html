@@ -5,11 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Portfolio.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bangers
+    rel="stylesheet"> <link
+    href="https://fonts.googleapis.com/css?family=Amatic+SC:700
+    rel="stylesheet">
+
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
-    <script src="main.js"></script>
+    <header>
+      <h1>Sumimoto Kazufumi</h1>
+    </header>
+    <div class="content">
+      <div class="Hobby top">
+        <div class="circle">
+          <a href="#hhobby">趣味</a>
+        </div>
+      </div>
+
+      <div class="profile top">
+        <div class="circle">
+          <a href="#profile">角本?</a>
+        </div>
+      </div>
+
+      <div class="quiz_sam top">
+        <div class="circle">
+          <a href="#quiz">クイズ</a>
+        </div>
+      </div>
+    </div>
+
+    <h3 id="profile">角本とはなんぞや？</h3>
+    <div class="profile_detail">
+      <div id="name">
+        <p class="my_profile" id="name_js">name:</p>
+      </div>
+      <div id="age">
+        <p class="my_profile" id="age_js">年齢:</p>
+      </div>
+
+      <div id="from">
+        <p class="my_profile" id="from_js">出身:</p>
+      </div>
+    </div>
+
+    <div id="hhobby">
+      <h3>Hobby</h3>
+    </div>
+
+    <div class="hobby1 hobby">
+      <h4>①草野球</h4>
+      <p>高校時代の野球の同期で1~2ヶ月に1回草野球の試合をしています</p>
+    </div>
+
+    <div class="hobby2 hobby">
+      <h4>②プロ野球観戦</h4>
+      <p>プロ野球のとあるチームを2年ほど前から応援しています!</p>
+      <p>どのチームなのかは、下の<a href="#quiz">クイズ</a>で!!</p>
+    </div>
+
+    <h3 id="quiz">クイズ</h3>
+    <h4>角本の応援してるプロ野球チームは？</h4>
+    <br />
+
+    <div id="img_quiz">
+      <p>正解は下のクリックで見れるよ！！</p>
+      <br />
+      <p>↓↓</p>
+
+      <img src="team12.png" id="img" />
+      <p id="ans">正解は？？</p>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
